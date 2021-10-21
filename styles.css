@@ -1,5 +1,5 @@
 
-body{
+.body{
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 120px;
 }
@@ -51,7 +51,7 @@ body{
 }
 
 .theory-text-image-sprunggelenk {
-    display:flex;
+    display:flex;   
     justify-content: space-between;
 
 }
