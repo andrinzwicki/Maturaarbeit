@@ -1,0 +1,140 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 120px;
+}
+
+.index-title {
+    font-size: 55px;
+    font-weight: 550;
+    padding-top: 0cm;
+    padding-left: 20%;
+}
+
+.index-title-small {
+    font-size: 25px;
+    font-weight:350;
+    background-color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 7px;
+
+}
+
+.index-text {
+    width: 20% 20%;
+    background-color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.theory-title {
+    font-size: 55px;
+    font-weight: 550;
+    padding-top: 0cm;
+    padding-left: 20%;
+}
+
+
+
+.theory-sprunggelenk {
+    width: 20% 20%;
+    background-color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.sprunggelenk-image {
+    width: 100%;
+    height: 300px;
+
+}
+
+.theory-text-image-sprunggelenk {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.text-anatomie-sprunggelenk {
+    width: 200%;
+
+}
+
+
+.theory-knie {
+    width: 20% 20%;
+    background-color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.knie-image {
+    width: 200%;
+    height: 300px;
+
+}
+
+.theory-text-image-knie {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.text-anatomie-knie {
+    width: 200%;
+
+}
+
+.theory-rumpf {
+    width: 20% 20%;
+    background-color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.rumpf-image {
+    width: 100%;
+    height: 200px;
+
+}
+
+.theory-text-image-rumpf {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.text-anatomie-rumpf {
+    width: 200%;
+
+}
+
+.theory-schulter {
+    width: 20% 20%;
+    background-color:white;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.schulter-image {
+    width: 100%;
+    height: 200px;
+
+}
+
+.theory-text-image-schulter {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.text-anatomie-schulter {
+    width: 200%;
+
+}
+
+
+
+
+
