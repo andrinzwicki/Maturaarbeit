@@ -10,11 +10,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script>
         function checkStatus() {
-            var x = sessionStorage.getItem("fuss1") ;
+            var x = sessionStorage.getItem("sprunggelenk1") ;
             if (x != null && x === "1") {
-                document.getElementById("fuss1").style.display = "block";
+                document.getElementById("sprunggelenk1").style.display = "block";
             } else {
-                document.getElementById("fuss1").style.display = "none";
+                document.getElementById("sprunggelenk1").style.display = "none";
             }
         }
     </script>
@@ -36,17 +36,17 @@
                         <a class="nav-link active" aria-current="page" href="./index.html" target="_top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./theory.html" target="_top">Theory</a>
+                        <a class="nav-link active" aria-current="page" href="./theorie.html" target="_top">Theorie</a>
                     </li>
                     <li class="nav-item active dropdown">
                         <a class="nav-link active dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Übungen
                         </a>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./subviews/rumpf.html" target="_top">Rumpf</a></li>
-                            <li><a class="dropdown-item" href="./subviews/fuss.html" target="_top">Fuss</a></li>
-                            <li><a class="dropdown-item" href="./subviews/schulter.html">Schulter</a></li>
+                            <li><a class="dropdown-item" href="./subviews/sprunggelenk.html" target="_top">Sprunggelenk</a></li>
                             <li><a class="dropdown-item" href="./subviews/knie.html">Knie</a></li>
+                            <li><a class="dropdown-item" href="./subviews/rumpf.html" target="_top">Rumpf</a></li>
+                            <li><a class="dropdown-item" href="./subviews/schulter.html">Schulter</a></li>
                         </ul>
                     </li>
                     <li class="nav-item active">
@@ -56,10 +56,21 @@
             </div>
         </div>
 </nav>
+
+<div class="design-print">
+    <div>
+         <h1>Übungen</h1>
+         <div id="sprunggelenk1" style="display: none">Test sprunggelenk1</div>
+    </div>
+
+
+
+
 <button onclick="checkStatus(); window.print()">Print</button>
-<div>
-    <h1>Übungen</h1>
-    <div id="fuss1" style="display: none">Test fuss1</div>
+
+
+
 </div>
+
 </body>
 </html>

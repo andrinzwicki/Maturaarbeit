@@ -28,7 +28,13 @@
     padding-right: 20%;
 }
 
-.theory-title {
+.index-text-welcome {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.theorie-title {
     font-size: 55px;
     font-weight: 550;
     padding-top: 0cm;
@@ -37,7 +43,7 @@
 
 
 
-.theory-sprunggelenk {
+.theorie-sprunggelenk {
     width: 20% 20%;
     background-color:white;
     padding-left: 20%;
@@ -45,12 +51,14 @@
 }
 
 .sprunggelenk-image {
-    width: 100%;
+    width: 120%;
     height: 300px;
+    
+    
 
 }
 
-.theory-text-image-sprunggelenk {
+.theorie-text-image-sprunggelenk {
     display:flex;   
     justify-content: space-between;
 
@@ -62,7 +70,7 @@
 }
 
 
-.theory-knie {
+.theorie-knie {
     width: 20% 20%;
     background-color:white;
     padding-left: 20%;
@@ -70,12 +78,12 @@
 }
 
 .knie-image {
-    width: 200%;
-    height: 300px;
+    width: 100%;
+    height: 200px;
 
 }
 
-.theory-text-image-knie {
+.theorie-text-image-knie {
     display:flex;
     justify-content: space-between;
 
@@ -86,7 +94,7 @@
 
 }
 
-.theory-rumpf {
+.theorie-rumpf {
     width: 20% 20%;
     background-color:white;
     padding-left: 20%;
@@ -99,7 +107,7 @@
 
 }
 
-.theory-text-image-rumpf {
+.theorie-text-image-rumpf {
     display:flex;
     justify-content: space-between;
 
@@ -110,7 +118,7 @@
 
 }
 
-.theory-schulter {
+.theorie-schulter {
     width: 20% 20%;
     background-color:white;
     padding-left: 20%;
@@ -123,7 +131,7 @@
 
 }
 
-.theory-text-image-schulter {
+.theorie-text-image-schulter {
     display:flex;
     justify-content: space-between;
 
@@ -135,6 +143,52 @@
 }
 
 
+.exercises-title-sprunggelenk{
+    font-size: 50px;
+    
+}
 
+.exercises-title-knie{
+    font-size: 50px;
+    
+}
 
+.exercises-title-rumpf{
+    font-size: 50px;
+    
+}
 
+.exercises-title-schulter{
+    font-size: 50px;
+
+}
+
+.design-sprunggelenk{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.design-knie{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.design-rumpf{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.design-schulter{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.design-print{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
