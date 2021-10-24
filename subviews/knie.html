@@ -61,7 +61,7 @@
             <div class="card-body">
                 <h5 class="card-title">Knie kreisen</h5>
                 <p class="card-text">...</p>
-                <button onclick="sessionStorage.setItem('sprunggelenk1', '1'); add('sprunggelenk1')">Hinzufügen</button>
+                <button class="btn btn-primary" id="knie1" onclick="updateList('knie1')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -69,7 +69,7 @@
             <div class="card-body">
                 <h5 class="card-title">Zehenspitzen stehen</h5>
                 <p class="card-text">Vom normalen Stand auf die Zehenspitzen aufrollen und wieder zurück bis fast auf den Boden, dann wiederholen. </p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie2" onclick="updateList('knie2')">Hinzufügen</button>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
             <div class="card-body">
                 <h5 class="card-title">Squat</h5>
                 <p class="card-text">Schulterbreit stehen & dann   </p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie3" onclick="updateList('knie3')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -87,7 +87,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 4</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie4" onclick="updateList('knie4')">Hinzufügen</button>
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 5</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie5" onclick="updateList('knie5')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -105,7 +105,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 6</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie6" onclick="updateList('knie6')">Hinzufügen</button>
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 7</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie7" onclick="updateList('knie7')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -123,7 +123,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 8</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie8" onclick="updateList('knie8')">Hinzufügen</button>
             </div>
         </div>
     </div>
@@ -133,7 +133,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 9</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie9" onclick="updateList('knie9')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -141,7 +141,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 10</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie10" onclick="updateList('knie10')">Hinzufügen</button>
             </div>
         </div>
     </div>
@@ -151,7 +151,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 11</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie11" onclick="updateList('knie11')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -159,12 +159,10 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 12</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="knie12" onclick="updateList('knie12')">Hinzufügen</button>
             </div>
         </div>
     </div>
-
-    <button onclick="document.getElementById('result').innerHTML = sessionStorage.getItem('lastname');">
 
     </button>
 </div>

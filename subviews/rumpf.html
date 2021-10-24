@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="../global.js"></script>
 
     <link rel="stylesheet" href="../styles.css">
 
@@ -60,7 +61,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 1</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="rumpf1" onclick="updateList('rumpf1')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -68,7 +69,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 2</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="rumpf2" onclick="updateList('rumpf2')">Hinzufügen</button>
             </div>
         </div>
     </div>
@@ -78,7 +79,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 3</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="rumpf3" onclick="updateList('rumpf3')">Hinzufügen</button>
             </div>
         </div>
         <div class="card col-6" >
@@ -86,7 +87,7 @@
             <div class="card-body">
                 <h5 class="card-title">Übung 4</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button>Hinzufügen</button>
+                <button class="btn btn-primary" id="rumpf4" onclick="updateList('rumpf4')">Hinzufügen</button>
             </div>
         </div>
     </div>
@@ -96,7 +97,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 5</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf5" onclick="updateList('rumpf5')">Hinzufügen</button>
         </div>
     </div>
     <div class="card col-6" >
@@ -104,7 +105,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 6</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf6" onclick="updateList('rumpf6')">Hinzufügen</button>
         </div>
     </div>
 </div>
@@ -114,7 +115,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 7</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf7" onclick="updateList('rumpf7')">Hinzufügen</button>
         </div>
     </div>
     <div class="card col-6" >
@@ -122,7 +123,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 8</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf8" onclick="updateList('rumpf8')">Hinzufügen</button>
         </div>
     </div>
 </div>
@@ -132,7 +133,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 9</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf9" onclick="updateList('rumpf9')">Hinzufügen</button>
         </div>
     </div>
     <div class="card col-6" >
@@ -140,7 +141,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 10</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf10" onclick="updateList('rumpf10')">Hinzufügen</button>
         </div>
     </div>
 </div>
@@ -150,7 +151,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 11</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf11" onclick="updateList('rumpf11')">Hinzufügen</button>
         </div>
     </div>
     <div class="card col-6" >
@@ -158,7 +159,7 @@
         <div class="card-body">
             <h5 class="card-title">Übung 12</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <button>Hinzufügen</button>
+            <button class="btn btn-primary" id="rumpf12" onclick="updateList('rumpf12')">Hinzufügen</button>
         </div>
     </div>
 </div>
