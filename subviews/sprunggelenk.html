@@ -55,93 +55,102 @@
 <br><br>
 
 <div class="container">
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Einbeinstand</h5>
-                <p class="card-text">Stelle dich auf ein Bein. Zur Erschwerung kannst du dann die Augen schliessen. Wenn das auch noch zu einfach ist kannst du den Kopf in den Nacken legen.</p>
-                <button onclick="sessionStorage.setItem('sprunggelenk1', '1'); add('sprunggelenk1')">Hinzufügen</button>
+        <div class="row">
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Einbeinstand</h5>
+                    <p class="card-text">Stelle dich auf ein Bein. Zur Erschwerung kannst du dann die Augen schliessen. Wenn das auch noch zu einfach ist kannst du den Kopf in den Nacken legen.</p>
+                    <button class="btn btn-primary" id="sprunggelenk1" onclick="updateList('sprunggelenk1')">Hinzufügen</button>
+                </div>
             </div>
-        </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Kniebeugen auf Zehenspitzen</h5>
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Kniebeugen auf Zehenspitzen</h5>
                 <p class="card-text">Führe eine Kniebeuge aus und stehe dabei auf den Zehenspitzen.</p>
-                <button>Hinzufügen</button>
+                    <button class="btn btn-primary" id="sprunggelenk2" onclick="updateList('sprunggelenk2')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Stabilitionssprünge</h5>
-                <p class="card-text">Springe auf ein Bein und versuche dann auf diesem Bein die Balance zu erhalten. Falls das zu leicht ist, kannst du dasselbe mit einer unebenen Fläche tun.</p>
-                <button>Hinzufügen</button>
+        <div class="row">
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Stabilitionssprünge</h5>
+                    <p class="card-text">Springe auf ein Bein und versuche dann auf diesem Bein die Balance zu erhalten. Falls das zu leicht ist, kannst du dasselbe mit einer unebenen Fläche tun.</p>
+                    <button class="btn btn-primary" id="sprunggelenk3" onclick="updateList('sprunggelenk3')">Hinzufügen</button>
+                </div>
+            </div>
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Waden kräftigen</h5>
+                    <p class="card-text">Gehe vom normalen Stand auf die Zehenspitzen und senke dann die Füsse fast wieder ganz ab. Aber bevor die Spannung aufhört, stehst du wieder auf die Zehenspitzen.</p>
+                    <button class="btn btn-primary" id="sprunggelenk4" onclick="updateList('sprunggelenk4')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Waden kräftigen</h5>
-                <p class="card-text">Gehe vom normalen Stand auf die Zehenspitzen und senke dann die Füsse fast wieder ganz ab. Aber bevor die Spannung aufhört, stehst du wieder auf die Zehenspitzen.</p>
-                <button>Hinzufügen</button>
+        <div class="row">
+            <div class="card col-6" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Fuss strecken</h5>
+                    <p class="card-text">Lege das Terraband um den vorderen Fussbereich und die Enden in die Hand. Ziehe nun das Band straff. Strecke dann deine Füsse.</p>
+                    <br>
+                    <p>Hilfsmittel:        Terraband</p>
+                    <button class="btn btn-primary" id="sprunggelenk5" onclick="updateList('sprunggelenk5')">Hinzufügen</button>
+                </div>
+            </div>
+            <div class="card col-6" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zehen anziehen</h5>
+                    <p class="card-text">Springe aus dem Stand hoch und ziehe dabei die Zehen an.</p>
+                    <button class="btn btn-primary" id="sprunggelenk6" onclick="updateList('sprunggelenk6')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Fuss strecken</h5>
-                <p class="card-text">Lege das Terraband um den vorderen Fussbereich und die Enden in die Hand. Ziehe nun das Band straff. Strecke dann deine Füsse.</p>
-                <br>
-                <p>Hilfsmittel:        Terraband</p>
-                <button>Hinzufügen</button>
+        <div class="row">
+            <div class="card col-6" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 7</h5>
+                    <p class="card-text">...</p>
+                    <button class="btn btn-primary" id="sprunggelenk7" onclick="updateList('sprunggelenk7')">Hinzufügen</button>
+                </div>
+            </div>
+            <div class="card col-6" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 8</h5>
+                    <p class="card-text">...</p>
+                    <button class="btn btn-primary" id="sprunggelenk8" onclick="updateList('sprunggelenk8')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Zehen anziehen</h5>
-                <p class="card-text">Springe aus dem Stand hoch und ziehe dabei die Zehen an.</p>
-                <button>Hinzufügen</button>
+        <div class="row">
+            <div class="card col-6" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 9</h5>
+                    <p class="card-text">...</p>
+                    <button class="btn btn-primary" id="sprunggelenk9" onclick="updateList('sprunggelenk9')">Hinzufügen</button>
+                </div>
+            </div>
+            <div class="card col-6" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 10</h5>
+                    <p class="card-text">...</p>
+                    <button class="btn btn-primary" id="sprunggelenk10" onclick="updateList('sprunggelenk10')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Übung 7</h5>
-                <p class="card-text">...</p>
-                <button>Hinzufügen</button>
-            </div>
-        </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Übung 8</h5>
-                <p class="card-text">...</p>
-                <button>Hinzufügen</button>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Übung 9</h5>
-                <p class="card-text">...</p>
-                <button>Hinzufügen</button>
-            </div>
-        </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Übung 10</h5>
-                <p class="card-text">...</p>
-                <button>Hinzufügen</button>
-            </div>
-        </div>
-    </div>
 
-    <button onclick="document.getElementById('result').innerHTML = sessionStorage.getItem('lastname');">
+        <button onclick="document.getElementById('result').innerHTML = sessionStorage.getItem('lastname');">
 
-    </button>
-</div>
+        </button>
+
+    </div>
 </div>
 </body>
 </html>
+
+

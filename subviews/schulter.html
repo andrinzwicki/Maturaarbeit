@@ -53,94 +53,95 @@
 
 <br><br>
 
-<div class="container">
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Arm kreisen</h5>
+    <div class="container">
+        <div class="row">
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Arm kreisen</h5>
                 <p class="card-text">Streck deine Arme gerade auf die Seite aus. Dann fang an die Arme zu kreisen und mache langsam immer grössere Kreise. Wenn du die Arme komplett kreisen lässt, kannst du wieder kleiner werden. </p>
-                <button onclick="sessionStorage.setItem('schulter1', '1'); add('sprunggelenk1')">Hinzufügen</button>
+                    <button class="btn btn-primary" id="schulter1" onclick="updateList('schulter1')">Hinzufügen</button>
+                </div>
             </div>
-        </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">High Plank mit Schulterkreisen</h5>
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">High Plank mit Schulterkreisen</h5>
                 <p class="card-text">Stütze dich in der Liegestützposition auf. Dann entlastest du abwechelnd einen Arm und zeichnest mit diesem einen imaginären Kreis auf den Boden.</p>
-                <button>Hinzufügen</button>
+                    <button class="btn btn-primary" id="schulter2" onclick="updateList('schulter2')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Schmetterling</h5>
+        <div class="row">
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Schmetterling</h5>
                 <p class="card-text">Spanne das Terraband auf Schulterhöhe an einen Pfosten. Du stehst du mit dem Rücken zum Pfosten und hast deine Arme seitlich gestreckt. Dann ziehst du die Arme nach vorne und wieder zurück. </p>
-                <button>Hinzufügen</button>
+                    <button class="btn btn-primary" id="schulter3" onclick="updateList('schulter3')">Hinzufügen</button>
+                </div>
             </div>
-        </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Dip</h5>
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Dip</h5>
                 <p class="card-text">Stütze dich mit den Händen auf eine Bank und strecke dabei deine Beine von dir. Dann senke deinen Körper ab und stemme ihn wieder hoch.</p>
-                <button>Hinzufügen</button>
+                    <button class="btn btn-primary" id="schulter4" onclick="updateList('schulter4')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Blinker</h5>
-                <p class="card-text">Spanne das Terraband auf hüfthöhe um einen Pfosten</p>
-                <button>Hinzufügen</button>
+        <div class="row">
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Blinker</h5>
+                    <p class="card-text">Spanne das Terraband auf hüfthöhe um einen Pfosten</p>
+                    <button class="btn btn-primary" id="schulter5" onclick="updateList('schulter5')">Hinzufügen</button>
+                </div>
             </div>
-        </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">...</h5>
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">...</h5>
                 <p class="card-text">...</p>
-                <button>Hinzufügen</button>
+                    <button class="btn btn-primary" id="schulter6" onclick="updateList('schulter6')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">...</h5>
+        <div class="row">
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">...</h5>
                 <p class="card-text">...</p>
                 <br>
                 <p>Hilfsmittel:         Terraband</p>
-                <button>Hinzufügen</button>
+                    <button class="btn btn-primary" id="schulter7" onclick="updateList('schulter7')">Hinzufügen</button>
+                </div>
+            </div>
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">...</h5>
+                    <p class="card-text">Gehe in die Liegestützposition. Deine Arme sind immer gestreckt. Drücke dich nach oben. Dann senke deinen Oberkörper so weit wie möglich ab. </p>
+                    <button class="btn btn-primary" id="schulter8" onclick="updateList('schulter8')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">...</h5>
-                <p class="card-text">Gehe in die Liegestützposition. Deine Arme sind immer gestreckt. Drücke dich nach oben. Dann senke deinen Oberkörper so weit wie möglich ab. </p>
-                <button>Hinzufügen</button>
+        <div class="row">
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Auf & Ab</h5>
+                    <p class="card-text">Gehe in die Liegestützposition. Dann wechsle nacheinander mit den Armen auf den Unterarm. Danach wieder nacheinander in die Liegestützposition. </p>
+                    <button class="btn btn-primary" id="schulter9" onclick="updateList('schulter9')">Hinzufügen</button>
+                </div>
+            </div>
+            <div class="card col-6" >
+                <div class="card-body">
+                    <h5 class="card-title">Liegestütz auf einem Ball</h5>
+                    <p class="card-text">Nimm einen Ball und mache die Liegestützen darauf</p>
+                    <button class="btn btn-primary" id="schulter10" onclick="updateList('schulter10')">Hinzufügen</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Auf & Ab</h5>
-                <p class="card-text">Gehe in die Liegestützposition. Dann wechsle nacheinander mit den Armen auf den Unterarm. Danach wieder nacheinander in die Liegestützposition. </p>
-                <button>Hinzufügen</button>
-            </div>
-        </div>
-        <div class="card col-6" >
-            <div class="card-body">
-                <h5 class="card-title">Liegestütz auf einem Ball</h5>
-                <p class="card-text">Nimm einen Ball und mache die Liegestützen darauf</p>
-                <button>Hinzufügen</button>
-            </div>
-        </div>
-    </div>
 
-    <button onclick="document.getElementById('result').innerHTML = sessionStorage.getItem('lastname');">
+        <button onclick="document.getElementById('result').innerHTML = sessionStorage.getItem('lastname');">
 
-    </button>
-</div>
+        </button>
+
+    </div>
 </div>
 </body>
 </html>

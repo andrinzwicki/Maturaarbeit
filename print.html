@@ -8,16 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
-        function checkStatus() {
-            var x = sessionStorage.getItem("sprunggelenk1") ;
-            if (x != null && x === "1") {
-                document.getElementById("sprunggelenk1").style.display = "block";
-            } else {
-                document.getElementById("sprunggelenk1").style.display = "none";
-            }
-        }
-    </script>
+    <script src="./global.js"></script>
 
 <link rel="stylesheet" href="./styles.css">
 
@@ -58,19 +49,126 @@
 </nav>
 
 <div class="design-print">
-    <div>
-         <h1>Übungen</h1>
-         <div id="sprunggelenk1" style="display: none">Test sprunggelenk1</div>
+
+
+
+<button class="btn btn-primary" onclick="window.print()">Print</button>
+
+
+    <div class="container">
+        <div class="row" style="display: none" id="knie1">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Knie kreisen</h5>
+                    <p class="card-text">...</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie2">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zehenspitzen stehen</h5>
+                    <p class="card-text">Vom normalen Stand auf die Zehenspitzen aufrollen und wieder zurück bis fast auf den Boden, dann wiederholen. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie3">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Squat</h5>
+                    <p class="card-text">Schulterbreit stehen & dann   </p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie4">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 4</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie5">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 5</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie6">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 6</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie7">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 7</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie8">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 8</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie9">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 9</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie10">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 10</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie11">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 11</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="display: none" id="knie12">
+            <div class="card col-12" >
+                <img src="#" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Übung 12</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
-
-
-
-
-<button onclick="checkStatus(); window.print()">Print</button>
-
-
 
 </div>
 
+<script>preparePrint()</script>
 </body>
 </html>
