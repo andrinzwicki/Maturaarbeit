@@ -1,7 +1,7 @@
 
 .body{
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 120px;
+    
 }
 
 .index-title {
@@ -190,5 +190,10 @@
 .design-print{
     padding-left: 20%;
     padding-right: 20%;
+
+}
+
+.card-body{
+    padding-top: 40px;
 
 }
