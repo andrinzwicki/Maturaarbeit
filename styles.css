@@ -7,7 +7,7 @@
 .index-title {
     font-size: 55px;
     font-weight: 550;
-    padding-top: 0cm;
+    padding-top: 7px;
     padding-left: 20%;
 }
 
@@ -17,7 +17,7 @@
     background-color: white;
     padding-left: 20%;
     padding-right: 20%;
-    padding-top: 7px;
+    padding-top: 12px;
 
 }
 
@@ -43,7 +43,7 @@
 .theorie-title {
     font-size: 55px;
     font-weight: 550;
-    padding-top: 0cm;
+    padding-top: 20px;
     padding-left: 20%;
 }
 
@@ -54,7 +54,7 @@
     background-color:white;
     padding-left: 20%;
     padding-right: 20%;
-    text-align: justify;
+    text-align:inherit
 }
 
 .sprunggelenk-image {
@@ -82,7 +82,7 @@
     background-color:white;
     padding-left: 20%;
     padding-right: 20%;
-    text-align: justify;
+    text-align: inherit;
 }
 
 .knie-image {
