@@ -48,6 +48,7 @@
     background-color:white;
     padding-left: 20%;
     padding-right: 20%;
+    text-align: justify;
 }
 
 .sprunggelenk-image {
@@ -65,7 +66,7 @@
 }
 
 .text-anatomie-sprunggelenk {
-    width: 200%;
+    text-align: justify;
 
 }
 
@@ -75,6 +76,7 @@
     background-color:white;
     padding-left: 20%;
     padding-right: 20%;
+    text-align: justify;
 }
 
 .knie-image {
@@ -99,6 +101,7 @@
     background-color:white;
     padding-left: 20%;
     padding-right: 20%;
+    text-align: justify;
 }
 
 .rumpf-image {
@@ -123,6 +126,7 @@
     background-color:white;
     padding-left: 20%;
     padding-right: 20%;
+    text-align: justify;
 }
 
 .schulter-image {
@@ -197,3 +201,4 @@
     padding-top: 40px;
 
 }
+
