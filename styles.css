@@ -29,9 +29,15 @@
 }
 
 .index-text-welcome {
-    font-size: 20px;
-    font-weight: 500;
-    padding-bottom: 5px;
+    font-size: 22px;
+    font-weight: 550;
+    padding-bottom: 20px;
+}
+
+.index-text-welcome-2{
+    font-size: 19px;
+    font-weight: 455;
+    padding-bottom: 15px;
 }
 
 .theorie-title {
