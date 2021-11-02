@@ -84,11 +84,16 @@
     padding-right: 20%;
     text-align: justify;
     
+    
 }
 
 .knie-image {
-    width: 100%;
-    height: 400px;
+    width: 300px;
+    height:auto;
+    right: 20%;
+    position: absolute;     
+    float: left
+    margin: 10px
 }   
 
 .theorie-text-image-knie{
@@ -107,8 +112,10 @@
 }
 
 .rumpf-image {
-    width: 100%;
-    height: 200px;
+    width: 300px;
+    height: auto;
+    right 20%
+    position: absolute;
 
 }
 
@@ -204,3 +211,9 @@
 
 }
 
+
+.theorie-quellen {
+padding-left: 20%;
+padding-right: 20%;
+
+}
